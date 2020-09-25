@@ -2,10 +2,12 @@
 Tout ce dont j'ai besoin pour parser des XML
 
 Découverte XML : https://stph.scenari-community.org/doc/xml/co/xmlAC01.html
+
 La syntaxe : https://stph.scenari-community.org/doc/xml/co/xmlAC03.html
 
-# http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139594320
-# ubuntu si abs : sudo apt-get install xmlstarlet
+http://xmlstar.sourceforge.net/doc/UG/xmlstarlet-ug.html#idm47077139594320
+
+ubuntu si abs : sudo apt-get install xmlstarlet
 
 En lisant le fichier de config du NAS OpenMediaVault, je constate que j'ai ces données :
 
