@@ -26,7 +26,6 @@ Mais je ne sais pas comment elles s'insèrent dans le document
 # Analyser la structure d'un XML
 ```bash
 xmlstarlet el /etc/openmediavault/config.xml | grep user
-```
 ...
 config/system/usermanagement/users/user/uuid
 config/system/usermanagement/users/user/name
@@ -41,8 +40,9 @@ config/system/usermanagement/users/user/sshpubkeys
 # basé sur : https://arstechnica.com/information-technology/2005/11/linux-20051115/2/
 ```bash
 xmlstarlet sel -t -m "//users/user" -v "uuid" -o "," -v "name" -n /etc/openmediavault/config.xml
+d35ff89a-9a1e-4f1c-a149-6deba9decfcb,mon_user
 ```
 ...
-d35ff89a-9a1e-4f1c-a149-6deba9decfcb,mon_user
+
 ...
 => ça marche
