@@ -38,7 +38,10 @@ config/system/usermanagement/users/user/sshpubkeys
 ```
 => ça à l'air d'être ça !
 
-# Tentative pour récupérer l'uuid et le nom du user
+
+# Récupérer des valeurs
+
+Tentative pour récupérer l'uuid et le nom du user
 
 basé sur : https://arstechnica.com/information-technology/2005/11/linux-20051115/2/
 ```bash
