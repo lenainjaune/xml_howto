@@ -13,6 +13,7 @@ En lisant le fichier de config du NAS OpenMediaVault, je constate que j'ai ces d
 
 ```bash
 less /etc/openmediavault/config.xml
+...
         <user>
           <uuid>d35f989a-9a1e-4f1c-a149-6deba9decf0b</uuid>
           <name>mon_user</name>
@@ -20,6 +21,7 @@ less /etc/openmediavault/config.xml
           <disallowusermod>0</disallowusermod>
           <sshpubkeys></sshpubkeys>
         </user>
+...
 ```
 Mais je ne sais pas comment elles s'insèrent dans le document
 
